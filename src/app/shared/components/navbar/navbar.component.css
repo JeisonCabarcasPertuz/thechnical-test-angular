@@ -1,0 +1,17 @@
+.navbar-container{
+  padding: 0 38px;
+  background-color: #36c;
+}
+.img-container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  height: 24px;
+  width: auto;
+  padding: 12px 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+

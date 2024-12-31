@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body,p{
+  margin: 0;
+}
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #0943b5 #e6effd;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+  max-width: 1320px;
+}
+@media (width<1400px) {
+  .container {
+      max-width: 1320px;
+  }
+}
+@media (width<1200px) {
+   .container {
+      max-width: 1140px;
+  }
+}
+@media (width<992px) {
+  .container {
+      max-width: 960px;
+  }
+}
